@@ -67,7 +67,7 @@
   }
   
   button[type="submit"] {
-    background-color: #9c73ca;
+    background-color: #06d362;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
   }
