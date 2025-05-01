@@ -21,4 +21,12 @@ export class AppComponent {
   onSelectUser(id:string){
     this.selectedUserId=id;
   }
+
+  isNewUser=false
+  onAddNewUser(){
+    this.isNewUser=!this.isNewUser
+  }
+  OncancelAddNewUser(){
+    this.isNewUser=!this.isNewUser
+  }
 }

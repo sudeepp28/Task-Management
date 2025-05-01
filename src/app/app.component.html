@@ -20,4 +20,9 @@
     <p
     id="fallback">select a user to see their tasks</p>
   }
+  <button (click)="onAddNewUser()"> Add New User</button>
+ 
+  @if(isNewUser){
+    <app-new-user (close)="OncancelAddNewUser()"></app-new-user>
+  }
 </main>
