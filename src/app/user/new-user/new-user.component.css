@@ -70,6 +70,7 @@
     background-color: #06d362;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
+    margin-top: 0.5rem;
   }
   
   button[type="submit"]:hover,

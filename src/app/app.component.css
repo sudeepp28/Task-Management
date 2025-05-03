@@ -45,7 +45,11 @@ button {
   align-items: center;
   gap: 0.5rem;
   padding: 0.35rem 0.5rem;
-  background-color: #06d362;
+  background: linear-gradient(
+    to bottom,
+    #2c0a4c,
+    #450d80
+  );
   color: #c3b3d1;
   border: none;
   font: inherit;
@@ -54,9 +58,16 @@ button {
   min-width: 10rem;
  font-size: 20px;
  font-weight: 900;
+ border-radius: 5px;
 }
 
 button:hover {
-  background-color: #9965dd;
+  background: 
+      
+      #8621e6;
+      
+   
   color: #150722;
 }
+
+
